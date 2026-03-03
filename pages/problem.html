@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../">Back to homepage</a>
+    <hr>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    
+    <input type="radio" id="kerek" name="ker" value="Kérek">
+    <label for="kerek">Kérek értesítést</label><br>
+    
+    <input type="radio" id="nemker" name="ker" value="Nem kérek">
+    <label for="nemker">Nem kérek értesítést</label><br>
+
+    <label for="bej">Bejelentés típusa:</label>
+    <select id="bej" name="bejelentes">
+        <option value="alt">1: Általános bejelentés</option>
+        <option value="poz">2: Pozitív vélemény</option>
+        <option value="pan">3: Panaszt kívánok tenni</option>
+    </select><br>
+
+    <label for="targy">Üzenet tárgya:</label><br>
+    <input type="text" id="targy" name="uz" size="50" maxlength="200"><br>
+
+    <label for="tart">Üzenet:</label><br>
+    <input type="text" id="tart" name="uztart" size="200" maxlength="800"><br>
+
+    <button type="button">Elküldöm</button>
+</body>
+</html>

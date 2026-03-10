@@ -11,3 +11,14 @@ a:hover{
 a:active{
     color: rgb(247, 65, 65);
 }
+
+@media screen and (max-width: 799px) {
+    #tablazat{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 800px) {
+    #alert{
+        visibility: hidden;
+    }
+}

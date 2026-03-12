@@ -8,17 +8,62 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <ul>
-    <!--id csak 1szer hasznalhato, class több helyen is (id-re #gel hivatkozunk)-->
-    <li><a href="../">Főoldal</a></li>
-    <li><a href="./pages/services.html">Szolgáltatások</a></li>
-    <li><a href="./pages/subjects.html">Tárgyak</a></li>
-    <li><a href="./pages/students.html">Hallgatók</a></li>
-    <li><a href="./pages/merch.html">Merch shop</a></li>
-    <li><a href="./pages/contact.html">Kapcsolat</a></li>
-    <li><a href="./pages/problem.html">Probléma</a></li>
-  </ul>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../">OE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../">Főoldal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/services.html">Szolgáltatások</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/subjects.html">Tárgyak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/students.html">Hallgatók</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/merch.html">Merch shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contact.html">Kapcsolat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/problem.html">Probléma</a>
+          </li>
+        </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
 
+  <div id="carousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bogre.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/pulover.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!--id csak 1szer hasznalhato, class több helyen is (id-re #gel hivatkozunk)-->
 </body>
 </html>

@@ -22,3 +22,19 @@ a:active{
         visibility: hidden;
     }
 }
+
+.carousel-item {
+    height: 400px;
+    background-color: #3333338a;
+    background-size: cover;
+}
+
+.carousel-item img {
+    height: 400px;
+    width: auto !important; /* Ne nyújtsa ki 100%-ra! */
+    margin: 0 auto;         /* Középre rakja a képet */
+    object-fit: contain;    /* Megtartja az arányokat, nem vág le belőle */
+    
+    /*árnyék*/
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}

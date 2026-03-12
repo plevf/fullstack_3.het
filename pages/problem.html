@@ -11,28 +11,34 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <a href="../">Back to homepage</a>
     <hr>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    
-    <input type="radio" id="kerek" name="ker" value="Kérek">
+    <div class="mb-3" style="width: 300px;">
+        <label for="email">Email:</label><br>
+        <input type="email" class="form-control" id="email" name="email"><br>
+    </div>
+    <input type="radio" class="form-check-input" id="kerek" name="ker" value="Kérek">
     <label for="kerek">Kérek értesítést</label><br>
     
-    <input type="radio" id="nemker" name="ker" value="Nem kérek">
+    <input type="radio" class="form-check-input" id="nemker" name="ker" value="Nem kérek">
     <label for="nemker">Nem kérek értesítést</label><br>
 
-    <label for="bej">Bejelentés típusa:</label>
-    <select id="bej" name="bejelentes">
+    <br>
+    <select id="bej" class="form-select" name="bejelentes">
+        <option selected>Bejelentés típusa</option>
         <option value="alt">1: Általános bejelentés</option>
         <option value="poz">2: Pozitív vélemény</option>
         <option value="pan">3: Panaszt kívánok tenni</option>
     </select><br>
 
-    <label for="targy">Üzenet tárgya:</label><br>
-    <input type="text" id="targy" name="uz" size="50" maxlength="200"><br>
+    <div class="mb-3" style="width: 300px;">
+        <label for="targy">Üzenet tárgya:</label><br>
+        <input type="text" class="form-control" id="targy" name="uz" size="50" maxlength="200"><br>
+    </div>
 
-    <label for="tart">Üzenet:</label><br>
-    <input type="text" id="tart" name="uztart" size="200" maxlength="800"><br>
+    <div class="mb-3" style="width: 300px;">
+        <label for="tart">Üzenet:</label><br>
+        <input type="text" class="form-control" id="tart" name="uztart" size="200" maxlength="800"><br>
+    </div>
 
-    <button type="button">Elküldöm</button>
+    <button type="button" class="btn btn-dark">Elküldöm</button>
 </body>
 </html>

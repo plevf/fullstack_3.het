@@ -38,3 +38,15 @@ a:active{
     /*árnyék*/
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.languages{
+    text-align: center;
+}
